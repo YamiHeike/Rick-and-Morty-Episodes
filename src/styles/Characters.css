@@ -1,0 +1,40 @@
+.Character {
+    margin-bottom: 5.55rem;
+}
+
+.char {
+    border-bottom: 1px solid #D1D1D1;
+    padding: 1.10rem;
+}
+
+section:last-of-type .char {
+    border-bottom: none;
+}
+
+@media all and (min-width: 1250px) {
+
+/*Header sections are to be refactured (Characters and Char-dets)*/
+
+    .Character {
+        margin-top: 0.25rem;
+        justify-self: flex-start;
+        width: 100%;
+        margin-left: 5.25rem;
+    }
+
+    .Character section p {
+        margin-top: 1rem;
+    }
+
+    .char-header {
+    width: 100%;
+    margin-top: -0.25rem;
+    }
+
+    .char {
+        border-bottom: none;
+    }
+
+    
+
+}

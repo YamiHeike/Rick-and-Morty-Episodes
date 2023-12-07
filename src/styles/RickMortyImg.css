@@ -1,0 +1,12 @@
+img {
+    
+    max-width: 100%;
+    margin-top: 2.75rem;
+}
+
+@media all and (min-width: 1250px) {
+    img {
+        margin-top: 4.38rem;
+    }
+    
+}

@@ -1,0 +1,97 @@
+.CharacterDetails {
+    font-family: "Lato Bold";
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*width 78% for img and header section, the details require higher width*/
+
+
+.char-det-header {
+    padding: 0 2.81rem 0 2.94rem;
+    text-align: center;
+    margin-top: -0.88rem;
+}
+
+.char-det-header h1 {
+    color: var(--accent-color-2);
+    font-size: 2.375rem;
+    font-family: 'Lato Bold';
+}
+
+.char-det-header img {
+    margin-top: 0.5rem;
+}
+
+.char-det-data {
+    padding: 0 1.81rem 0 1.31rem;
+}
+
+/*Considering adding the border bottom to BasicLayout*/
+
+article {
+    border-bottom: 1px solid #D1D1D1;
+    padding: 1.25rem 0 1.1rem 0;
+}
+
+article:last-of-type {
+    border-bottom: none;
+}
+
+article:nth-of-type(2n) h3 {
+    color: var(--accent-color-1);
+}
+
+
+article p {
+    font-size: 0.9375rem;
+}
+
+img {
+    width: 100%;
+}
+
+/*Also, data section is too low*/
+
+@media all and (max-width: 1250px) {
+    article {
+        height: height: 5.81rem;
+    }
+}
+
+@media all and (min-width: 1250px) {
+    
+ .CharacterDetails {
+        margin-top: -2rem;
+    }
+    .char-det-data {
+        width: 50%;
+        margin-top: 3.05rem;
+    }
+
+    .char-det-header {
+        /*Padding reseted for now*/
+        padding: 2rem;
+        width: 50%;
+        margin-top: 2.5rem;
+    }
+
+    img {
+        width: 62.5%;
+    }
+
+    .char-det-header h1 {
+        font-size: 4.375rem;
+    }
+
+    .char-det-header img {
+        width: 78%;
+        margin: 6.25rem auto;
+    }
+
+    article {
+        border-bottom: none;
+        margin-bottom: -0.2rem;
+        padding-left: 2.38rem;
+    }
+}

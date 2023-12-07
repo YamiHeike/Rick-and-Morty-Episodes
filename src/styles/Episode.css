@@ -1,0 +1,38 @@
+.ep {
+  border-bottom: 1px solid #D1D1D1;
+}
+
+.ep:last-of-type {
+    border-bottom: none;
+}
+
+
+/*This one is set to override a rule in line 37 of BasicLayout.css by specificity*/
+
+.Episode section .ep-code h3 {
+    color: #000;
+}
+
+@media all and (min-width:1250px){
+    .Episode .ep {
+        display: flex;
+        flex-direction: row;
+        border-bottom: none
+    }
+
+    .ep-code{
+    padding: 1.75rem 2.09rem;
+    border-right: 1px solid #D1D1D1;
+    justify-self: center;
+    margin-left: 2.25rem;
+    }
+
+    .ep-data {
+    padding: 1.7rem 1.84rem 0.65rem;
+    
+    }
+
+    .ep-layout {
+        margin-top: 6.85rem;
+    }
+}

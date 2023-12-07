@@ -1,0 +1,46 @@
+/*They probably want an icon, check the disc*/
+
+.Button {
+    display: flex;
+    flex-direction: row;
+    padding: 0.44rem 0.9rem;
+    background-color: #00BDD480;
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1.88rem 3.12rem 1.25rem;
+    /*height: 2.375rem;*/
+}
+
+.Button img,
+.Button p {
+    display: inline;
+    margin: 0;
+}
+
+.Button img {
+    height: 1rem;
+    width: 1.25rem;
+    margin-right: 0.25rem;
+}
+
+.Button p {
+    font-size: 1.25rem;
+    font-family: 'Lato Regular';
+}
+
+@media all and (min-width: 1250px) {
+    .Button {
+        padding: 0.44rem 1rem;
+        
+    }
+
+    .Button p {
+        font-size: 1.875rem;
+    }
+
+    .Button img {
+        width: 1.8125rem;
+        height: 1.8125rem;
+    }
+}

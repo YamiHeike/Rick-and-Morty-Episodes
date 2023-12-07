@@ -1,0 +1,65 @@
+/*Global settings & resets*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html, body {
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+:root {
+  --accent-color-1: #DAED49;
+  --accent-color-2: #00BDD4;
+}
+
+
+/*Fonts*/
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('./assets/Fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('./assets/Fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('./assets/Fonts/Lato-Bold.ttf');
+}
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('./assets/Fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url('./assets/Fonts/Lato-Black.ttf');
+}

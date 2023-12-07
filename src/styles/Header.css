@@ -1,0 +1,36 @@
+/*Header and img*/
+
+h1 {
+  font-size: 2.375rem;
+  font-family: 'Lato Regular';
+  line-height: normal;
+}
+
+section h1:first-child {
+  margin: 2.25rem auto;
+}
+
+.rick-and-morty {
+  color: var(--accent-color-2);
+}
+
+span {
+  font-family: 'Lato Bold';
+}
+
+img {
+  margin-bottom: 5.91rem;
+  width: 100%;
+  /* height: 19.125rem; */
+}
+
+@media all and (min-width: 1250px) {
+    h1 {
+        font-size: 4.375rem;
+    }
+
+    section h1:first-child {
+      margin: 0;
+    }
+
+}

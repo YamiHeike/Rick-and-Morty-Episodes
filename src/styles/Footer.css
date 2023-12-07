@@ -1,0 +1,29 @@
+/* Footer */
+.Footer {
+  height: 3.04519rem;
+  background-color: #464646;
+  padding: 0.94rem;
+  margin-top: 2.83rem;
+}
+
+.Footer p {
+  color: #CCC;
+  font-family: 'Lato Bold';
+  font-size: 0.875rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media all and (min-width:1250px){
+
+  .Footer {
+    padding: 1.5rem;
+    height: 4.20213rem;
+    margin-top: 9.2rem;
+  }
+  
+  .Footer p {
+    font-size: 1rem;
+    
+  }
+}
